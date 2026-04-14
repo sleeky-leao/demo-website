@@ -1,5 +1,8 @@
 *{
     box-sizing: border-box;
+}
+body {
+
     background: url(./pexels-jplenio-2080960.jpg);  
     background-size: cover;
     background-position: center;
