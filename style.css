@@ -29,7 +29,7 @@ p {
 }
 
 .nav {
-    background-color: #333;
+    background-color: #767171;
     color: #fff;
     padding: 10px 20px;
     display: flex;
@@ -79,12 +79,12 @@ p {
         top: 50px;
         left: 0;
         width: 100%;
-        background-color: #333;
+        background-color: #767171;
         text-align: center;
     }
     .nav-links {
         padding: 15px 0;
-        border-bottom: 1px solid #444;
+        border-bottom: 1px solid #2c2b2b;
     }
     #nav-check:checked~.navbar {
         display: flex;
