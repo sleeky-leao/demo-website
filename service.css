@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(./pexels-roacunha-2531608.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+span{
+    font-size: larger;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+    color: #fff;
+}
+
+.service{
+    max-width: 800px;
+    margin:50px auto;
+    padding: 20px;
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
