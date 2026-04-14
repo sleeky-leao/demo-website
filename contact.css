@@ -1,20 +1,25 @@
 *{
     box-sizing: border-box;
-    background: url(./pexels-jplenio-2080960.jpg);
+    background: url(./pexels-jplenio-2080960.jpg);  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
+
+}
+p{
+    font-size: 18px;
 }
 /* full-width input fields */
 input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
+    padding: 20px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: 1px solid #ccc;
     background: #f1f1f1;
+    border-radius: 20px;
+    width: 100%;
 }
 input[type=text]:focus, input[type=password]:focus {
     background-color: #ddd;
@@ -26,13 +31,11 @@ hr {
 }
 /* Set a style for all buttons */
 button {
-    background-color:black;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 10px;
     border: none;
     cursor: pointer;
-    width: 100%;
     opacity: 0.9;
 }
 button:hover {
@@ -43,15 +46,35 @@ button:hover {
 .cancelbtn {
     padding: 14px 20px;
     background-color: #f44336;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+}
+.signupbtn {
+    padding: 14px 20px;
+    background-color: #4CAF50;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
 }
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
     float: left;
-    width: 50%;
 }
 /* Add padding to container elements */
 .container {
     padding: 16px;
+    height: 100%;
+    width: 50%;
+    display: grid;
+    place-items: center;
+    margin-left: 25%;
+    border-radius: 20px;
+}
+.clearfix{
+    overflow: auto;
+    display: block;
+    gap: 20px;
 }
 /* Clear floats */
 .clearfix::after {  
@@ -63,6 +86,6 @@ button:hover {
 
 @media screen and (max-width: 768px) {
     .cancelbtn, .signupbtn {
-       width: 100%;
+       width: 100px;
     }
 }
